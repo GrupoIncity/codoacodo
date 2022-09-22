@@ -1,0 +1,512 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    width: 100%;
+}
+
+footer {
+    width: 100%;
+}
+
+.header {
+    background-color: black;
+    display: flex;
+    padding-left: 10px;
+    padding-right:150px;
+    width: 100%;
+    }
+
+.logo {
+    height: 50%;
+}
+
+
+.codoacodo {
+    width: 140px; 
+    height: 80px;
+}
+
+.link2 {
+    display:flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 70%;
+    list-style-type: none;
+    padding-left: 400px;
+    font-size: 20px;
+    margin-top: 40px;
+}
+
+.link2:active {
+    color: white;
+}
+
+.recital {
+    color: white;
+    font-weight: 450;
+}
+
+a.recital:hover {
+    color: white;
+}
+
+.cantantes {
+    color: darkgray;
+    font-weight: 450;
+}
+
+a.cantantes:hover {
+    color: white;
+}
+
+.fechas {
+    color: darkgray;
+    font-weight: 450;
+}
+
+a.fechas:hover {
+    color: white;
+}
+
+.tickets {
+    color: rgba(230,0,126);
+    font-weight: 600;
+}
+
+a.tickets:hover {
+    color: rgba(230,0,190);
+}
+
+.codoacodo {
+    margin-left: 100px;
+    margin-right: 10px;
+    text-decoration: none;
+}
+
+.tituloPagina {
+    justify-content: center;
+    margin-top: 18px;
+    color: white;
+    font-size: 35px;
+    font-weight:750;
+}
+
+#portada {
+	text-align: center;
+	background-position: center center;
+	background-size: cover;
+	background-repeat: no-repeat;
+	position: absolute;
+    top: 0px;
+    left: 0px;
+    z-index: -1;
+    width: 100%;
+    
+}
+
+.portada{
+    color: rgba(230,0,126);
+    font-weight: 600px;
+    font-size: 40px;
+    text-align: right;
+    text-shadow: 2px 2px 2px rgba(255,255,255,0.8);
+    padding-top: 200px;
+    padding-right: 175px;
+}
+
+.h1, .h2, .h3, .h4, .h5, .h6, h1 {
+    margin-top: 0;
+    margin-bottom: .5rem;
+    font-weight: 500;
+    line-height: 1
+}
+
+.h1 {
+    font-weight: 800;
+    font-size: 4rem 
+}
+
+.h5 h5{
+    font-weight: 800;
+   
+}
+
+
+
+.texto {
+    color: white;
+    text-align: right;
+    padding-right: 175px;
+    margin-top: 10px;
+    font-weight: 100px;
+    padding-left: 750px;
+    font-size: 25px; 
+
+}
+
+.texto h4 {
+    font-weight: normal;
+}
+
+.botcontratar {
+    margin-bottom: 360px;
+    padding-right:75px;
+}
+
+.contratar {
+    font-size: 20px;
+    margin-left: 950px; 
+    margin-right: 500px; 
+    width: 20%; 
+    padding: 15px 32px;
+    background-color: black;
+    border-color: rgba(230,0,126);
+    color: rgba(230,0,126);
+}
+
+
+.btn-success:hover {
+    background-color: rgba(230,0,126);
+    color: white;
+}
+
+.btn-success:active {
+    background-color: rgba(230,0,126);
+    color: white;
+}
+
+.btn-check:focus+.btn-success, .btn-success:focus {
+    color: black;
+    background-color: gray;
+       
+}
+
+.allcards {
+    display: flex;
+    flex-direction: row;
+    margin-bottom: 120px;
+    background-clip: border-box;
+        
+}
+
+.card1 {
+    margin-left: 100px;
+    margin-right: 25px;
+    width: 25rem; 
+    border: 1px solid black;
+}
+
+.card2 {
+    margin-right: 25px;
+    width: 25rem; 
+    border: 1px solid black;
+}
+
+.card3 {
+    margin-right: 25px;
+    width: 25rem; 
+    border: 1px solid black;
+}
+
+.card4 {
+    margin-right: 100px;
+    width: 25rem; 
+    border: 1px solid black;
+}
+
+.card-body {
+    flex: 1 1 auto;
+    padding: 1rem 1rem
+}
+
+.card-title {
+    margin-bottom: 5px;
+    color: rgba(230,0,126);
+    font-weight: 600px;
+    font-size: 25px
+}
+
+
+.afiche {
+    padding-left: 0%;
+    display: flex;
+    flex-direction: row;
+    box-sizing: border-box;
+}
+
+.col-6.themed-grid-col {
+    width: 50%;
+}
+
+.col-6.themed-grid-col.text {
+    width: 50%; 
+    background-color: rgba(53,58,64,255); 
+    color: white; 
+    border-left: 0.5px solid gray;
+}
+
+.titulo2 {
+    margin-left: 20px;
+    padding-top: 20px;
+}
+
+.texto2 {
+    padding-left: 20px;
+    font-weight: 100px;
+    font-size: 19.2px;
+    padding-right: 20px;
+}
+
+.titulo {
+    margin-left: 500px; 
+    margin-top: 5px; 
+    color: rgba(154,151,158,255)
+}
+
+.nombre {
+    margin-left: 500px
+}
+
+.apellido {
+    margin-right: 500px;
+}
+
+.form-floating {
+    margin-left: 500px; 
+    margin-right: 500px;
+}
+
+.enviar {
+    margin-left: 500px; 
+    margin-right: 500px; 
+    width: 48%; 
+    background-color: rgba(150,201,62,255); 
+    border-color: rgba(150,201,62,255); 
+    margin-bottom: 30px;
+}
+
+.footer {
+    text-align: center;
+    background: rgba(230,0,126);
+    display: flex;
+    color:white;
+    flex-direction: row;
+    padding-left: 600px;
+    padding-right: 200px;
+    justify-content: space-between;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    font-size: 20px;
+    align-items: center;
+    position: relative;
+    width: 100%;
+    margin-bottom: 0%;
+
+}
+
+.navbar {
+    display: none;
+}
+
+@media only screen and (max-width: 768px) {
+
+    /* css mobiles */
+
+    .codoacodo {
+        padding: 0%;
+        margin-left: 0;
+        margin-right: 0;
+        margin-top: 20px;
+
+    }
+
+    .logo {
+        padding-left: 23%;
+    }
+
+    .link2 {
+        display: none;
+    }
+
+    .bg-dark {
+        background-color: rgba(52,57,63,255);
+    }
+
+    .link1 {
+        list-style-type: none;
+        padding: 5%;
+        background-color: rgba(52,57,63,255);
+        font-size: 15px;
+        margin-bottom: 0px;
+    }
+
+    .tituloPagina {
+        display: none;
+    }
+
+    .header {
+        font-size: 10px;
+        padding: 0%;
+        background-color: rgba(52,57,63,255);
+
+    }
+
+    .recital {
+        margin: 10px 0;
+    }
+    .cantantes{
+        margin: 10px 0;
+    }
+    .fechas {
+        margin: 10px 0;
+    }
+    .tickets {
+        margin: 10px 0;
+    }
+    
+    
+    .navbar {
+        text-decoration: none;
+        display: block;
+        margin: 30px 30px;
+        background-color: rgba(52,57,63,255);
+        padding: 0%;
+    }
+
+    #portada {
+        width: 200%;
+        height: 100%;
+        margin-top: 100px;
+        filter: brightness(0.5);
+    }
+
+    .portada {
+        color: rgba(230,0,126);
+        text-align: center;
+        font-size:30px;
+        margin-left: 20px;
+        padding-right: 10px;
+        padding-top: 30%;
+        font-weight: 200px;
+        
+    }
+
+    .texto {
+        text-align: left;
+        text-align: center;
+        padding-left: 20px;
+        padding-right: 10px;
+        width: 100%;
+    }
+
+    .botcontratar {
+        padding: 0;
+        font-size: 20px;
+        margin-bottom: 200px;
+    }
+
+    .allcards {
+        display: block;
+        font-size: 10px;
+    }
+
+    .card1 {
+        width: 80%;
+        margin: 0%;
+        size: 200px;
+        margin-left: 45px;
+        margin-bottom: 10px;
+    }
+    
+    .card2 {
+        width: 80%;
+        margin-left: 45px;
+        margin-bottom: 10px;
+    }
+
+    .card3 {
+        width: 80%;
+        margin-left: 45px;
+    }
+
+    .btn-outline-light {
+        font-size: 15px;
+        margin-left: 20px;
+    }
+
+    .btn-success {
+        font-size: 15px;
+    }
+
+    .afiche{
+        display: block;
+    }
+
+    .col-6.themed-grid-col {
+        width: 100%;
+    }
+
+    .col-6.themed-grid-col.text {
+        width: 100%;
+        border-left: none;
+        border-top: 1px white;
+    }
+
+    .hawaii {
+        width: 70%;
+        height: 50%;
+
+    }
+
+    .titulo2 {
+        padding-top: 10px;
+    }
+
+    .texto2 {
+        text-align: left;
+        font-size: 15px;
+        margin: 0%
+    }
+
+    .titulo {
+        margin-left: 5px;
+    }
+
+    
+    .footer {
+        font-size: 12px;
+        display: inline-block;
+        text-align: center;
+        padding-left: 0%;
+        padding-right: 0%;
+
+    }
+
+    .contacto {
+        width: 100%;
+    }
+
+    .preguntas {
+        width: 100%;
+    }
+    .legales {
+        width: 100%; 
+        line-height: 150%
+    }
+    
+    .conferencias {
+        width: 100%;
+    }
+    
+    .privacidad {
+        width: 100%;
+    }
+    
+    .prensa {
+        width: 100%;
+    }
+    
+
+}
